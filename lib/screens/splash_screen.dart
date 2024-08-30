@@ -25,7 +25,7 @@ class SplashScreen extends StatelessWidget {
 
             Container(
 
-              child: Text("small world", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)),
+              child: Text("small world", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),)),
           ],
         ),
       )
