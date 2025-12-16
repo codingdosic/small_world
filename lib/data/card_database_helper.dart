@@ -10,6 +10,7 @@ class DatabaseHelper {
 
   Future<void> initDatabase() async {
     try {
+
       // 앱의 로컬 데이터베이스 디렉토리 경로를 가져옵니다.
       String path = join(await getDatabasesPath(), 'card_archive.db');
 
@@ -46,16 +47,16 @@ class DatabaseHelper {
   Future<List<CardInfo>> getAllCardInfo() async {
     final List<Map<String, dynamic>> result = await database.query('cards');
     return List.generate(result.length, (index) {
-      return CardInfo.fromMap(result[index]);
+      return CardInfo.fromMap(result[index]); // 인스턴스 형태로 초기화하여 반환
     });
   }
 
   Future<int> updateCardInfo(CardInfo card) async {
     return await database.update(
-      'cards',
-      card.toMap(),
-      where: 'id = ?',
-      whereArgs: [card.id],
+      'cards', // 테이블 이름
+      card.toMap(), // 맵 형태로 변환
+      where: 'id = ?', // 행 선택 조건
+      whereArgs: [card.id], // ? 자리에 들어갈 값
     );
   }
 
@@ -63,4 +64,5 @@ class DatabaseHelper {
     await database.close();
     print('Database closed successfully.');
   }
+  
 }

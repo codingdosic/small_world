@@ -12,9 +12,9 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
 
-  TextEditingController deckNameController = TextEditingController();
+  TextEditingController deckNameController = TextEditingController(); // 텍스트필드 다루기용
 
-  var dbHelper = DeckDatabaseHelper();
+  var dbHelper = DeckDatabaseHelper(); // db 조작용
   List<DeckData> lstDeckData = [];
 
   @override
