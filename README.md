@@ -44,33 +44,43 @@
 ## 데모 (Demo)
 
 *   **[시작 화면]**
+*   
     <img src="assets/1_main.png" alt="1_main" width="50%">
 
 *   **[덱 추가]**
+*   
     <img src="assets/2_deckName.png" alt="2_deckName" width="50%">
 
 *   **[메인 화면]**
+*   
     <img src="assets/3_setting.png" alt="3_setting" width="50%">
 
 *   **[데이터베이스로부터 카드 확인]**
+*   
     <img src="assets/4_cardData.png" alt="4_cardData" width="50%">
 
 *   **[카드 검색 기능]**
+*   
     <img src="assets/5_cardSearch.png" alt="5_cardSearch" width="50%">
 
 *   **[카드 검색 필터]**
+*   
     <img src="assets/6_cardSearchFilter.png" alt="6_cardSearchFilter" width="50%">
 
 *   **[카드 정보 확인]**
+*   
     <img src="assets/7_cardInfo.png" alt="7_cardInfo" width="50%">
 
 *   **[현재 선택한 카드 관리]**
+*   
     <img src="assets/8_addedCards.png" alt="8_addedCards" width="50%">
 
 *   **[스몰 월드 루트 계산]**
+*   
     <img src="assets/9_foundRoute.png" alt="9_foundRoute" width="50%">
 
 *   **[사용자 정의 카드 추가]**
+*   
     <img src="assets/10_customCard.png" alt="10_customCard" width="50%">
 
 
